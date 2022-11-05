@@ -1,3 +1,5 @@
 import streamlit as st
 
-st.text("hihi")
+st.radio(
+    "What's your favorite movie genre",
+    ('Comedy', 'Drama', 'Documentary'))
